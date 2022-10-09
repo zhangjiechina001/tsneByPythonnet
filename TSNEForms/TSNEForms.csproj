@@ -14,4 +14,13 @@
     <ProjectReference Include="..\TSNEByPython\TSNEByPython.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="mnist_data.npy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="mnist_target.npy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
